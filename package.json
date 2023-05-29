@@ -3,6 +3,10 @@
   "private": true,
   "homepage": ".",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-regular-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -11,6 +15,7 @@
     "particles-bg": "^2.5.5",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-icons": "^4.9.0",
     "react-scripts": "^4.0.2",
     "react-simple-image-viewer": "^0.0.8",
     "smooth-scroll": "^16.1.3"
