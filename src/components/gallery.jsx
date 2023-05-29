@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from "react";
+import React, { useState } from "react";
 import ImageViewer from "react-simple-image-viewer";
 
 export const Gallery = (props) => {
@@ -21,11 +21,6 @@ export const Gallery = (props) => {
   ];
 
   const images = data.map((obj) => obj.thumb.replace("-small", "-large"));
-
-  const openImageViewer = useCallback((index) => {
-    setCurrentImage(index);
-    setIsViewerOpen(true);
-  }, []);
 
   const closeImageViewer = () => {
     setCurrentImage(0);
