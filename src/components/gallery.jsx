@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ImageViewer from "react-simple-image-viewer";
 
-export const Gallery = (props) => {
+export const Gallery = () => {
   const [currentImage, setCurrentImage] = useState(0);
   const [isViewerOpen, setIsViewerOpen] = useState(false);
 
@@ -33,8 +33,9 @@ export const Gallery = (props) => {
         <div className="section-title">
           <h2>Notícias</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            Revisite os grandes momentos que marcaram época e reverberam nos
+            dias de hoje com um poderoso lembrete de que a história molda nosso
+            presente e inspira o futuro.
           </p>
         </div>
         <div className="row">
